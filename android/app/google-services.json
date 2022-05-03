@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "997571655527",
+    "project_id": "patentcontsys",
+    "storage_bucket": "patentcontsys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997571655527:android:b865728c46ef42cb7521c2",
+        "android_client_info": {
+          "package_name": "com.example.patent_control_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997571655527-ippmtaijmk9t0ja9avrrmehopecaehvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.patent_control_system",
+            "certificate_hash": "8fbf45c1d36650bd5d459cc5d3d266bbc58bd691"
+          }
+        },
+        {
+          "client_id": "997571655527-9n5ep4tqto5rivcqrup7v205de035kta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm-MLIPQd4XnPPNZ4F6h4QnIA20ERXIAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997571655527-9n5ep4tqto5rivcqrup7v205de035kta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
