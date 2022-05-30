@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
           home: Container(
             child: SafeArea(
               child: Scaffold(
-                backgroundColor: HexColor("141d26"),
+                backgroundColor: HexColor("3F72AF"),
                 body: Center(
                     child: JumpingDotsProgressIndicator(
                   color: Colors.white,
