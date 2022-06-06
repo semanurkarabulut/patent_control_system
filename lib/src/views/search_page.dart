@@ -55,9 +55,10 @@ class ListSearchState extends State<ListSearch> {
           patents.add(patent);
         }
       }
-      setState(() {
-        loading = true;
-      });
+      if (mounted)
+        setState(() {
+          loading = true;
+        });
     }
   }
 

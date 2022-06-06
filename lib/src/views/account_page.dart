@@ -75,6 +75,7 @@ class AccountPage extends StatelessWidget {
                             borderRadius: BorderRadius.circular(20)),
                       )),
                   onPressed: () async {
+                    
                     await HelperFunctions.setUserLoggedIn(false);
                     await FirebaseAuth.instance.signOut();
 

@@ -6,6 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:patent_control_system/src/helpers/functions.dart';
+import 'package:patent_control_system/src/views/home.dart';
 import 'package:patent_control_system/src/views/search_page.dart';
 
 class SignInPage extends StatefulWidget {
@@ -280,7 +281,7 @@ class _SignInPageState extends State<SignInPage> {
           await HelperFunctions.setUserLoggedIn(true);
 
           Navigator.pushReplacement(
-              context, CupertinoPageRoute(builder: (context) => SearchPage()));
+              context, CupertinoPageRoute(builder: (context) => HomePage()));
 
           debugPrint("Giriş başarılı. Giriş yapan kullanıcı " +
               userCredential.user!.email.toString());
